@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PANADERIA "LOS 6INGES"</title>
+<link href="../css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<script type="text/ecmascript">
+	function valor()
+	{
+		var n1 = document.getElementById("c1").value;
+		var n2 = document.getElementById("c2").value;
+		var n3 = document.getElementById("c3").value;
+		var n4 = document.getElementById("c4").value;
+		var n5 = document.getElementById("c5").value;
+		var n6 = document.getElementById("c6").value;
+		var n7 = document.getElementById("c7").value;
+		var n8 = document.getElementById("c8").value;
+		var n9 = document.getElementById("c9").value;
+		var res = (parseInt(n1*350)+parseInt(n2*400)+parseInt(n3*500)+parseInt(n4*6)+parseInt(n5*5)+parseInt(n6*10)+parseInt(n7*15)+parseInt(n8*17)+parseInt(n9*20))
+		
+		alert("Tu resultado es: "+res)
+	}
+</script>
+
+
+<body>    
+<div class="container">
+  <div class="header">
+    <p><a href="#"><img src="../imagenes/welcome.gif" width="486" height="242"></a></p>
+    <p align="center"><font size="+3"><b> PANADERIA &quot;LOS 6INGES&quot;
+    </b></font></p>
+
+    <!-- end .header --></div>
+  <div class="sidebar1">
+ 
+    <p align="justify">&nbsp; </p>
+    <p align="center"><b><font size="+1">El siguiente catalogo nos muestra algunos de nuestros productos que ofrecemos al mercado, así mismo, te damos la opcion de hacer tu presupuesto de acuerdo a ciertos productos que ofrecemos en nuestra sucursal para que tengas una idea del precio que tendrías que pagar.</p>
+    <p align="center">¡DISFRUTALO!</p>
+    <p align="center">
+    <p>&nbsp;</p>
+  </div>
+    </font></b>
+  <div class="content">
+    <table width="645" height="626" border="1" cellspacing="3">
+      <tr>
+        <td width="215"><div align="center"><img src="../imagenes/imagen1.png" alt="img2" width="200" height="200">PASTEL TIPO 1 $350
+          <input type="text" placeholder="Cantidad a comprar"name="can1" id="c1">
+     </div></td>
+        <td width="206"><div align="center"><img src="../imagenes/imagen2.jpg" alt="img2" width="200" height="200">PASTEL TIPO 2 $400
+            <input type="text" placeholder="Cantidad a comprar"name="can2" id="c2">
+        </div></td>
+        <td width="198"><div align="center"><img src="../imagenes/imagen3.png" alt="img3" width="200" height="200">PASTEL TIPO 3 $500
+			<input type="text" placeholder="Cantidad a comprar" name="can3" id="c3"></div></td>
+      </tr>
+      <tr>
+        <td><div align="center"><img src="../imagenes/imagen4.png" alt="img4" width="200" height="200">PAN REPOSTERIA $6
+            <input type="text" placeholder="Cantidad a comprar"name="can4" id="c4"></div></td>
+        <td><div align="center"><img src="../imagenes/imagen5.jpg" alt="img5" width="200" height="200">PAN TRADICIONAL $5
+            <input type="text" placeholder="Cantidad a comprar"name="can5" id="c5"></div></td>
+        <td><div align="center"><img src="../imagenes/imagen6.jpg" alt="img6" width="200" height="200">PAN ESPECIALIDAD $10
+            <input type="text" placeholder="Cantidad a comprar"name="can6" id="c6"></div></td>
+      </tr>
+      <tr>
+        <td height="204"><div align="center"><img src="../imagenes/imagen7.jpg" alt="img7" width="200" height="200">PAN RELLENO 1 $15
+        <input type="text" placeholder="Cantidad a comprar"name="can7" id="c7"></div></td>
+        <td><div align="center"><img src="../imagenes/imagen8.jpg" alt="img8" width="200" height="200">PAN RELLENO 2 $17
+        <input type="text" placeholder="Cantidad a comprar"name="can8" id="c8"></div></td>
+        <td><div align="center"><img src="../imagenes/imagen9.jpg" alt="img9" width="200" height="200">PAN RELLENO 3 $20
+        <input type="text" placeholder="Cantidad a comprar"name="can9" id="c9"></div></td>
+      </tr>
+    </table>
+    <h1><!-- end .content --></h1>
+  </div>
+  <div class="sidebar2">
+    <br><b><h4>TE ESPERAMOS!!!</h4>
+    <p>Estamos a tus ordenes en carretera Coatepec-Ixtapaluca km. 31 s/n.</p>
+    <p>Numero:5563159552</p>
+    <p>Correo:los6inges@hotmail.com</b></p>
+    <!-- end .sidebar2 --></div>
+  <div class="footer">
+    <p align="center">Esta empresa tiene control de todos los derechos, pudiendo modificar su contenido sin ninguna consecuencia legal.
+	<input type="button" onclick="valor() " value="Presupuesto de tu pedido" id="r"></p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+</body>
+</html>
